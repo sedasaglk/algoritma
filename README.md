@@ -1,1 +1,11 @@
 # algoritma
+SÖZDE KOD:
+DÜZELTİLMESİ GEREKEN KELİMEYİ BOŞLUK KARAKTERİNE GÖRE BÖL VE DİZİYE AT
+HER STRİNG İNDİSİN İLK KARAKTERİNİ KARŞILAŞTIR;
+->EĞER "(" İSE
+->->İKİNCİ KARAKTERİ KONTROL ET "(" İSE
+->->->"(" VE ")" İNDİS İÇİNDE ARA BUL VE SİL.
+->->DEĞİLSE 
+->->->"(" VE ")" BUL VE SİL
+->DEĞİLSE
+->KELİMEYİ TERS ÇEVİR VE YAZ.
